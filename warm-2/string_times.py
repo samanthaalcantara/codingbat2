@@ -1,7 +1,7 @@
 """
-Author: Sam
-Date: June 07, 2020
-Question:Given a string and a non-negative int n, return a larger string that is n copies of the original string.
+Date: 06 07 2020
+Author: Samantha Alcantara
+Question:  Given a string and a non-negative int n, return a larger string that is n copies of the original string.
 
 
 string_times('Hi', 2) → 'HiHi'
