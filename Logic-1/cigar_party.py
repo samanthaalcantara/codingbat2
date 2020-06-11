@@ -8,5 +8,9 @@ Question: When squirrels get together for a party, they like to have cigars. A s
 
 def cigar_party(cigars, is_weekend):
   if is_weekend:
-    return cigars >= 40
-  return 40 <= cigars <= 60
+   return True
+  else:
+   if cigars >= 40 and cigars <= 60 :
+    return True
+   else:
+    return False
