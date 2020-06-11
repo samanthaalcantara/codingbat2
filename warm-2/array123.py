@@ -1,7 +1,10 @@
-""""
+"""
 Date: 06 07 2020
 Author: Samantha Alcantara
 Question: Given an array of ints, return True if the sequence of numbers 1, 2, 3 appears in the array somewhere.
+"""
+
+#Answer
 
 def array123(nums):
   for i in range(len(nums)-2):
