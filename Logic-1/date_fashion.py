@@ -8,6 +8,7 @@ You and your date are trying to get a table at a restaurant. The parameter "you"
 
 #Answer
 
+<<<<<<< HEAD
 def date_fashion(you, date):
   if you <= 2 or date <= 2 :
     return 0
@@ -17,3 +18,6 @@ def date_fashion(you, date):
   
  -As soon as we reach a return statement the function leaves.
  -The order that you impact each persons stylishness it will minimize your code. 
+=======
+
+>>>>>>> 64cd4f5cee0f60192e1dfde3b756a59f385b28f4
