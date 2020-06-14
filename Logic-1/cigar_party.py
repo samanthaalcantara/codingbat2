@@ -17,3 +17,12 @@ def cigar_party(cigars, is_weekend):
     return True
    else:
     return False
+
+  - simple if statement with a return inside 
+  - if it is the weekend, were using a boolean statement
+  - return cigars >= 40
+  
+  def cigar_party(cigars, is_weekend):
+  if is_weekend == False:
+   return cigars >= 40 and cigars <= 60
+  return cigars >= 40
