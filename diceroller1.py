@@ -15,4 +15,12 @@ selected = random.randint(1,6)
 4 
 1
 
+import random
+
+rolled_num = random.randint(1,6)
+print("You rolled: ", rolled_num)
+
+5
+3
+
 
