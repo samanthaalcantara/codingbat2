@@ -7,6 +7,26 @@ Game:Dice Roller
 
 Instructions:
 
+Anytime were creating a game to generate random numbers,
+were going to use the random module, "import random".
+We'll use a function called  def dice_roll():
+so it will return the value that is randomly generated
+& then we will setup a variable diceroll = random.randint (1, 6)
+1 being the first number and 6 being the last number to be generated 
+and any number in between 1-6. 
+We're going to setup a main function called def main() and add players 1
+& player 2 to see if the dice generates less than, greater than or equal to.
+I have it setup for the players to have 3 rounds using the while loop and then
+printing an added string. We use the number 10 to have 9 rounds.
+The generator pulls a random number from the function player1 = dice_roll() and
+gives it to player 1. & then we add player 2 and the generator pulls a random number 
+from the function player2 = dice_roll(). We can add more information using the string
+method to generate words that say Player 1 Roll. Using the else/if statement we can
+add if player 1 == player 2: print("Draw") . Or elif player1 > player2: print("player 1 wins")
+else print("player 2 wins"). "Rounds = rounds + 1" whoever wins gets a point added to their score.
+
+
+
 
 
 
