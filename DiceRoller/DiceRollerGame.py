@@ -16,7 +16,7 @@ so it will return the value that is randomly generated
 and any number in between 1-6. 
 We're going to setup a main function called def main() and add players 1
 & player 2 to see if the dice generates less than, greater than or equal to.
-I have it setup for the players to have 3 rounds using the while loop and then
+I have it setup for the players to have 9 rounds using the while loop and then
 printing an added string. We use the number 10 to have 9 rounds.
 The generator pulls a random number from the function player1 = dice_roll() and
 gives it to player 1. & then we add player 2 and the generator pulls a random number 
