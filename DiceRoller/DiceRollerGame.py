@@ -84,9 +84,6 @@ if repeater == "yes":
     roll_again = True
 if repeater == "no":
     roll_again = False
-continue
-else:
-break
 
 
 
