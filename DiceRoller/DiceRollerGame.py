@@ -28,21 +28,10 @@ else print("player 2 wins"). "Rounds = rounds + 1" whoever wins gets a point add
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 import random
 def main(): 
     player1 = 0
-    player1wins =0
+    player1wins = 0
     player2 = 0
     player2wins = 0
     rounds = 1
@@ -55,23 +44,23 @@ def main():
         print("Player 2 Roll: " + str(player2))
 
            
-    if player1 == player2:
+        if player1 == player2:
             print("Stalemate!")
-    elif player1 > player2:
+        elif player1 > player2:
             player1wins = player1wins + 1
             print("Alejandro Rolls He Scores!")
-    else:
+        else:
             player1wins = player1wins + 1
             print("Nataya Rolls She Scores!")
 
-    rounds = rounds + 1
+        rounds = rounds + 1
 
-    if player1wins == player2wins:
-        print("Draw!")
-    elif player1wins > player2wins:
-        print("Player 1 Scores, Congratulations Alejandro:You are the Winner! - Round Won : " + str(player1wins))
-    else:
-        print("Player 2 Scores, Congratulations Nataya:You are the Winner! - Round Won : " + str(player2wins))
+        if player1wins == player2wins:
+            print("Draw!")
+        elif player1wins > player2wins:
+            print("Player 1 Scores, Congratulations Alejandro:You are the Winner! - Round Won : " + str(player1wins))
+        else:
+            print("Player 2 Scores, Congratulations Nataya:You are the Winner! - Round Won : " + str(player2wins))
 
    
 def dice_roll():
@@ -84,6 +73,17 @@ if repeater == "yes":
     roll_again = True
 if repeater == "no":
     roll_again = False
+
+main()
+
+
+
+
+
+
+
+
+
 
 
 
