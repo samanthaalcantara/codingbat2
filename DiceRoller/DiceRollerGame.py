@@ -40,8 +40,6 @@ else print("player 2 wins"). "Rounds = rounds + 1" whoever wins gets a point add
 
 
 import random
-
-
 def main(): 
     player1 = 0
     player1wins =0
@@ -56,16 +54,17 @@ def main():
         print("Player 1 Roll: " + str(player1))
         print("Player 2 Roll: " + str(player2))
 
-        if player1 == player2:
+           
+    if player1 == player2:
             print("Stalemate!")
-        elif player1 > player2:
+    elif player1 > player2:
             player1wins = player1wins + 1
             print("Alejandro Rolls He Scores!")
-        else:
+    else:
             player1wins = player1wins + 1
             print("Nataya Rolls She Scores!")
 
-        rounds = rounds + 1
+    rounds = rounds + 1
 
     if player1wins == player2wins:
         print("Draw!")
@@ -74,9 +73,20 @@ def main():
     else:
         print("Player 2 Scores, Congratulations Nataya:You are the Winner! - Round Won : " + str(player2wins))
 
+   
 def dice_roll():
     diceroll = random.randint(1,6)
     return diceroll
+repeater = input("Would you like to play a Game?:(yes or no) ? : ").lower()
+while repeater not in ["yes", "no"]:repeater = input("Bad Response. Reply with Yes or No : ").lower()
+
+if repeater == "yes":
+    roll_again = True
+if repeater == "no":
+    roll_again = False
+continue
+else:
+break
 
 
 
