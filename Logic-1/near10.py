@@ -11,6 +11,5 @@ Note: (a % b) is the remainder of dividing a by b, so (7 % 5) is 2.
 #Answer
 
 def near_ten(num):
- if num%10 == 8 or num%10 == 9 or num %10 == 0 or num%10 == 2:
-    return True
- return False
+ # return 0 <= (num % 10) <= 2 or 8 <= (num % 10) <= 10
+ return num % 10 in [0,1,2,8,9,10]
