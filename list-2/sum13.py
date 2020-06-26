@@ -9,14 +9,15 @@ so it does not count and numbers that come immediately after a 13 also do not co
 
 #Answer  
 def sum13(nums):
+  if len(nums) == 0:
+    return 0
  
-  sum = 0
-  if len(nums) > 0 and nums[0] ! = 13:
-    sum = nums[0]
-  for i in range(1,len(nums),1):
-    if nums[i] ! = 13 and nums[i-1] ! = 13:
-      sum = sum + nums[i]
-  return sum
+  for i in range(0, len(nums)):
+    if nums[i] == 13:
+      nums[i] = 0
+      if i+1 < len(nums): 
+        nums[i+1] = 0
+  return sum(nums)
 
 
 
