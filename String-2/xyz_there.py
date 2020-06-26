@@ -10,7 +10,7 @@ is not directly preceeded by a period (.). So
 
 #Answer
 
-def xyz_there(str):def xyz_there(str):
+def xyz_there(str):
   for i in range(len(str)):
     if str[i] != '.' and str[i+1:i+4] == 'xyz':
       return True
