@@ -9,15 +9,7 @@ Given an array length 1 or more of ints, return the difference between the large
 #Answer
 
 def big_diff(nums):
-  maxv = nums[0]
-  minv = nums[0]
-  
-  for i in range(0,len(nums),1):
-    if maxv < nums[i]:
-      maxv = nums[i]
-    if minv > nums[i]:
-      minv = nums[i]
-  return maxv - minv
+  return max(nums) - min(nums)
 
 -Initialize the max value to an element of 0 to find 
 the max value
